@@ -348,7 +348,7 @@ header nav .form i {
 }
 @media (max-width: 767px) {
  .design {
-   height: 640px;
+   height: 660px;
    display: flex;
    flex-direction: column;
  }
