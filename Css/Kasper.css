@@ -368,28 +368,44 @@ header nav ul li a:hover {
     height: 640px;
     display: flex;
     flex-direction: column;
-  }
-  .design .image img {
-    height: 660px;
-    display: flex;
-    flex-direction: column;
-  }
-  .design .image img {
     position: relative;
-    top: -12%;
+  }
+
+  .design .image img {
+    height: 600px;
+    position: relative;
+    top: -7%;
   }
   .design .text {
     background-color: rgb(15 116 143 / 95%);
     padding: 29px;
-    position: relative;
-    top: -56%;
-    left: 0px;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100%;
+  }
+  .design .text h2 {
+    margin-bottom: 20px !important;
   }
 }
+
+@media (max-width: 460px) {
+  .design .image img {
+    height: 88%;
+    top: 0;
+  }
+
+  .design .text h2 {
+    font-size: 20px;
+  }
+}
+
 .design .text h2 {
   margin-bottom: 40px;
   font-weight: normal;
 }
+
 .design .text ul li {
   padding: 10px 0px;
 }
