@@ -364,21 +364,17 @@ header nav ul li a:hover {
   left: 100px;
 }
 @media (max-width: 767px) {
-<<<<<<< HEAD
   .design {
     height: 640px;
     display: flex;
     flex-direction: column;
   }
   .design .image img {
-=======
- .design {
-   height: 660px;
-   display: flex;
-   flex-direction: column;
- }
- .design .image img {
->>>>>>> ee8b69d480fbd5fab82ed98e2a258cd022570eb9
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+  }
+  .design .image img {
     position: relative;
     top: -12%;
   }
